@@ -18,11 +18,13 @@ the components of the hex sticker (background hex, continent of Africa, etc).
 
 `logo_components` contains SVGs corresponding to the main components. These 
 are mostly the same as `africaR_hex_rstudioconf2020.svg`, but with 
-components other than the component of interest commented out. The exception is 
-`africaR_hex_standard_rotation.svg`, which contains the background hex, 
-rotated to be in standard rotation (as in 
+components other than the component of interest commented out. There are two 
+exceptions. The first is `africaR_hex_standard_rotation.svg`, which contains 
+the background hex, rotated to be in standard rotation (as in 
 https://github.com/terinjokes/StickersStandard). The coordinates were 
-computed in R using the script `transform_hex.R`.
+computed in R using the script `transform_hex.R`. The second exception is 
+`africaR_text.svg`, which replaces the PNG image of the R logo with the SVG 
+version (thereby removing an artefact in the image).
 
 `logo_xcf` contains XCF files, which can be edited in GIMP. The 
 `africaR_hex.xcf` file contains the current AfricaR hex. This was created from 
@@ -38,4 +40,9 @@ formats.
 edition hex for the Southern Africa Project. The map with the relevant 
 countries highlighted was created in R using the script `southern_africa_map.R`. 
 This was then further edited in GIMP. The additional text is in Jenny font (https://www.dafont.com/jenny.font).
+
+### License Information
+
+The AfricaR logos/hex stickers are derivatives of the [R logo](https://www.r-project.org/logo/Rlogo.svg), [©2016 The R Foundation](https://www.r-project.org/logo/), used 
+under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
