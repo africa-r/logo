@@ -26,20 +26,21 @@ computed in R using the script `transform_hex.R`. The second exception is
 `africaR_text.svg`, which replaces the PNG image of the R logo with the SVG 
 version (thereby removing an artefact in the image).
 
-`logo_xcf` contains XCF files, which can be edited in GIMP. The 
-`africaR_hex.xcf` file contains the current AfricaR hex. This was created from 
+`logo_svg` contains SVG files, created in Inkscape. The 
+`africaR_hex.svg` file contains the current AfricaR hex. This was created from 
 the components in `logo_components`; the continent of Africa was scaled to 
-200px high, while the AfricaR text was scaled to 180px wide. 
+220px high, while the AfricaR text was scaled to 200px wide. 
 
 `logo_pdf`/`logo_png` contain the AfricaR hex in the corresponding file 
 formats.
 
 ### Southern Africa Project 2020 hex
 
-`logo_xcf/africaR_hex_southern_project2020.xcf` is the source for the special 
+`logo_xcf/africaR_hex_southern_project2020.svg` is the source for the special 
 edition hex for the Southern Africa Project. The map with the relevant 
 countries highlighted was created in R using the script `southern_africa_map.R`. 
-This was then further edited in GIMP. The additional text is in Jenny font (https://www.dafont.com/jenny.font).
+This was then further edited in Inkscape. The additional text is in Scott font 
+(https://www.1001fonts.com/scott-font.html).
 
 ### License Information
 
