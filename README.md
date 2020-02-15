@@ -2,9 +2,10 @@
 
 ## TL;DR
 
-For printing the AfricaR hex sticker, use: `logo_pdf/africaR_hex.pdf`. The 
-size of the printed sticker should be 2" x 2"; if you need to specify a custom 
-size, it should be 5.08cm (2") high by 4.39cm (1.73") wide (Ref: https://github.com/terinjokes/StickersStandard).
+For printing the AfricaR hex sticker, use: `logo_pdf/africaR_hex.pdf` or 
+`logo_svg/africaR_hex.svg`. The size of the printed sticker should be 2" x 2"; 
+if you need to specify a custom size, it should be 5.08cm (2") high by 
+4.39cm (1.73") wide (Ref: https://github.com/terinjokes/StickersStandard).
 
 For other uses, use: `logo_png/africaR_hex.png`.
 
@@ -32,7 +33,8 @@ the components in `logo_components`; the continent of Africa was scaled to
 220px high, while the AfricaR text was scaled to 200px wide. 
 
 `logo_pdf`/`logo_png` contain the AfricaR hex in the corresponding file 
-formats.
+formats. The PDF files were created in Inkscape by saving as PDF with 300dpi 
+resolution.
 
 ### Southern Africa Project 2020 hex
 
